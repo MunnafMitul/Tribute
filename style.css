@@ -8,6 +8,7 @@
     background-color: #e5e5fd ;
     min-height: 100vh;
     border: 10px solid #1d1e4c;
+    padding: 40px;
 }
 .content{
     max-width: 900px;
