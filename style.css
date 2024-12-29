@@ -56,7 +56,7 @@
 }
 .Bio{
     margin-top: 50px;
-
+    
 }
 .Bio h3{
     font-size: 40px;
@@ -70,6 +70,7 @@
 .Bio li{
     margin-bottom: 15px;
     font-size: 20px;
+    text-align: justify;
 }
 footer{
     margin: 50px 0;
@@ -77,4 +78,19 @@ footer{
 footer p{
     text-align: end;
 
+}
+@media (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-section div {
+        margin: 10px 0;
+    }
+
+    .image-container, img {
+        width: 100%;
+        height: auto;
+    }
 }
